@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="/hello-world/webpage/reset.css">
+ <style>
+  a {
+   text-decoration: none;
+   color: black;
+  }
+
+  a:hover {
+   color: red;
+  }
+
+  header {
+   background-color: pink;
+   padding: 0 32px;
+  }
+
+  h1 {
+   padding: 20px;
+  }
+
+  .header-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+  .header-nav {
+   display: flex;
+   /* width: 100%; */
+   /* border-bottom: 2px solid black; */
+  }
+
+  .header-list-container {
+   display: block;
+   padding: 20px;
+  }
+
+  .header-icon-container {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+  }
+
+  .hamburger {
+   display: none;
+  }
+
+  @media screen and (max-width:767px) {
+   header {
+    padding: 0 16px;
+   }
+
+   nav {
+    display: none;
+   }
+
+   .hamburger {
+    display: block;
+   }
+  }
+
+  nav li {
+   /* line-height: 40px; */
+   box-sizing: border-box;
+   align-items: center;
+   /* color: white; */
+   background-color: pink;
+   /* border-bottom: 1px solid pink; */
+  }
+
+  nav {
+   height: 60px;
+  }
+
+  .submenu {
+   overflow: hidden;
+   height: 0;
+  }
+
+  .submenu>li {
+   background-color: pink;
+   line-height: 40px;
+   box-sizing: border-box;
+   border-bottom: 2px solid black;
+  }
+
+  nav li:hover>.submenu {
+   height: 160px;
+  }
+ </style>
+
+</head>
+
+<body>
+ <header>
+  <div class="header-container">
+   <h1><a href="#">logo</a></h1>
+   <nav>
+    <ul class="header-nav">
+     <li class="header-list-container">
+      <a href="#">menu1
+       <ul class="submenu">
+        <li class="submenu-list"><a href="#">menu1</a></li>
+        <li class="submenu-list"><a href="#">menu1</a></li>
+        <li class="submenu-list"><a href="#">menu1</a></li>
+        <li class="submenu-list"><a href="#">menu1</a></li>
+       </ul>
+      </a>
+     </li>
+     <li class="header-list-container"><a href="#">menu2</a></li>
+     <li class="header-list-container"><a href="#">menu3</a></li>
+     <li class="header-list-container"><a href="#">menu4</a></li>
+     <li class="header-list-container"><a href="#">menu5</a></li>
+     <li class="header-list-container"><a href="#">menu6</a></li>
+    </ul>
+   </nav>
+   <div class="header-icon-container">
+    <a href="#">icon</a>
+    <a href="#">icon</a>
+    <button class="hamburger">hamburger</button>
+   </div>
+  </div>
+ </header>
+</body>
+
+</html>
