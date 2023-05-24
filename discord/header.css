@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+li {
+    list-style: none;
+}
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+.header-list-container {
+    display: block;
+    padding: 0 20px;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    header section {
+        padding: 0 16px;
+    }
+    .header-list-container {
+        display: none;
+    }
+    #login {
+        display: block;
+    }
+    #hamburger {
+        display: block;
+    }
+}
