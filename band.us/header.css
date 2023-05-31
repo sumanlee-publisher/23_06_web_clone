@@ -1,0 +1,85 @@
+body {
+    background-color: #f6f8fa;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-title {
+    background-image: url(/band-img/spr_intro_2x.png);
+    overflow: hidden;
+    background-size: 231px auto;
+    width: 78px;
+    height: 29px;
+    display: inline-block;
+    background-position: 0 -96px;
+    vertical-align: top;
+    margin: 15px 0 0 10px;
+}
+
+.category-container {
+    margin-top: 10px;
+    align-items: center;
+}
+.arrow-contents {
+    position: relative;
+    
+}
+
+.arrow-contents:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+}
+
+.box-item-container {
+    margin-left: 20px;
+    box-sizing: border-box;
+
+}
+
+#login-box {
+    /* box-shadow: 0 0 5px 20px #0f0; */
+    background-color: #21c531;
+    padding: 12px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 14px;
+    width: 15px;
+    line-height: 35px;
+    /* height: 20px; */
+    margin: 0 20px;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#login-box:hover {
+    box-shadow: 0 0 5px #0dc91f;
+}
+
+.box-item-container:hover {
+    text-decoration: underline;
+}

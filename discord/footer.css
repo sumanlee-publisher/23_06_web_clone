@@ -1,35 +1,17 @@
-footer {
-    margin-top: 50px;
+.footer-container {
+    /* max-width: 1200px; */
     background-color: black;
+
+}
+.footer-main-container {
     max-width: 1200px;
     margin: 0 auto;
+    width: 100px;    
 }
-
-.footer-container {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-}
-
-.more-box {
-    /* margin-top: 1000px; */
-    color: white;
-    margin: 0 auto;
-    width: 200px;
-    line-height: 40px;
-    background-color: green;
-    text-align: center;
-    align-items: center;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-}
-/* .box-con {
-    height: 200px;
-    margin-top: 50px;
-} */
-footer  a {
-    color: white;
+.img-container {
+background-image: url(/hello-world/discord/image/2a944f43170f2222e136854fe9c9e2c9ea6a1971.svg);
+background-position: center;
+/* background-size: 10px; */
+object-fit: cover;
+object-position: center;
 }

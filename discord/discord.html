@@ -5,23 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/hello-world/discord/reset copy.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="body.css">
   <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Document</title>
 </head>
 
 <body>
-  
   <header>
     <div class="header-container">
       <a href="#" class="discord-img"><img src="/hello-world/discord/image/cc59daa07820943e943c2fc283b9079d7003ff76.svg" alt=""></a>
       <nav>
         <ul class="header-nav">
           <li class="header-list-container"><a href="#">feedback</a></li>
-          <li class="header-list-container"><a href="#">English(US)</a></li>
+          <li class="header-list-container"><a href="#">English(US)<span class="material-symbols-outlined">
+            expand_more</span></a></li>
           <li class="header-list-container"><a href="#">Submit a request</a></li>
-          <button id="hamburger">hamburger</button>
+          <li class="material-symbols-outlined"><a href="#">menu</a></li>
           <li id="login"><a href="#">Sign in</a></li>
         </ul>
       </nav>
@@ -31,164 +35,164 @@
   <section class="flex-contents">
     <div>
       <h1 class="help-container">Help Center</h1>
-      <!-- <label for="help"></label> -->
-      <input type="search" name="" id="search" placeholder="search">
+      <!-- 검색창 물어보기 -->
+      <div class="search-container">
+        <a href="#" class="material-symbols-outlined">search<input type="text" name="" id="input-con"></a>
+        <!-- <input type="search" name="" id="search" placeholder="search"> -->
+      </div>
     </div>
   </section>
-  <section id="title">
+  
+  <section class="title">
     <h2 class="help-contents">Need help? We've got your back.</h2>
-    <p>From account settings to permissions, find help for everything Discord<br>
+    <p class="help-comment">From account settings to permissions, find help for everything Discord<br>
       If you're new to Discord and looking for tips, check out our <a href="#">Beginner's Guide</a></p>
   </section>
   
   <section class="category-grid">
     <ul class="flex-container">
       <!-- 1번 -->
-      <a href="#">
       <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
         <h2 class="flex-item-title">Announcements</h2>
       <div class="line"></div>
       <p>We've got our ear to the ground. Here's what you need to know.</p>
-    </li>
     </a>
+    </li>
     <!-- 2번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/8c6c6469bdca01e05d2870e6d373c1d80e290255.svg" alt="">
         <h2 class="flex-item-title">Discord's Interface</h2>
       <div class="line"></div>
       <p>WHAT DOES THIS BUTTON DO?!</p>
-    </li>
     </a>
+    </li>
     <!-- 3번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/3da6524afd9979b44c5f6ceaf19e812c204ad74e.svg" alt="">
         <h2 class="flex-item-title">Account Settings</h2>
       <div class="line"></div>
       <p>You're a special snowflake and so is your account.</p>
-    </li>
     </a>
+    </li>
     <!-- 4번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/35f736c34c81d953054d0c1e202f71c8094f8fbf.svg" alt="">
         <h2 class="flex-item-title">Getting Started</h2>
       <div class="line"></div>
       <p>Start off the right foot! Not the left one!</p>
-    </li>
     </a>
+    </li>
     <!-- 5번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/33f0bd0c3a2c58763cb0404a18bb38da48fc289d.svg" alt="">
         <h2 class="flex-item-title">Server Setup</h2>
       <div class="line"></div>
       <p>Almost as excitiing as interior decorating.</p>
-    </li>
     </a>
+    </li>
     <!-- 6번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/dd93acfbff40b1ea53f2b4e8fa51ac142486bd13.svg" alt="">
         <h2 class="flex-item-title">Community Programs</h2>
       <div class="line"></div>
       <p>Bringing people together from all around the globe (and occasionally Mars)</p>
-    </li>
     </a>
+    </li>
     <!-- 7번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
         <h2 class="flex-item-title">Perks and Subscriptions</h2>
       <div class="line"></div>
       <p>Please don't shop until you drop. Let us help.</p>
-    </li>
     </a>
+    </li>
     <!-- 8번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
         <h2 class="flex-item-title">Billing</h2>
       <div class="line"></div>
       <p>That feel when you look at your bank account.</p>
-    </li>
     </a>
+    </li>
     <!-- 9번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
         <h2 class="flex-item-title">Trust & Safety</h2>
       <div class="line"></div>
       <p>Keep things safe &amp; sound for you and your buddies.</p>
-    </li>
     </a>
+    </li>
     <!-- 10번 -->
-      <a href="#">
-      <li class="flex-item-announcements">
+    <li class="flex-item-announcements">
+        <a href="#">
         <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
         <h2 class="flex-item-title">F.A.Q.S</h2>
       <div class="line"></div>
       <p>All you can eat self-serve problem solving.</p>
-    </li>
     </a>
-    </ul>
-    
-    
-    <section class="other-help">
-      <h3>Other ways to find help.</h3>
-    
-    <ul class="flex-container">
-      <a href="#">
-        <li class="flex-item-announcements">
-          <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
-          <h2 class="flex-item-title">Developer Support</h2>
-          <div class="line"></div>
-          <p>Your home for support with developing bots, apps, &amp; games using our API and SDK!</p> 
-        </li>
-      </a>
-      <a href="#">
-        <li class="flex-item-announcements">
-          <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
-          <h2 class="flex-item-title">Developer Support</h2>
-          <div class="line"></div>
-          <p>Your home for support with developing bots, apps, &amp; games using our API and SDK!</p> 
-        </li>
-      </a>
+    </li>
     </ul>
   </section>
-</section>
+    
+    <section class="other-help-title">
+      <h2>Other ways to find help.</h2>
+    </section>
 
-<!-- <section>
-    <div class="box-container">
-      <div class="sub-box-container"></div>
-      <div class="sub-box-container"></div>
-    </div>
-  </section> -->
+    <section class="category-grid">
+      <ul class="flex-container">
+        <!-- 1번 -->
+        <li class="flex-item-announcements">
+          <a href="#">
+          <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
+          <h2 class="flex-item-title">Announcements</h2>
+        <div class="line"></div>
+        <p>We've got our ear to the ground. Here's what you need to know.</p>
+      </a>
+      </li>
+      <!--  -->
+      <li class="flex-item-announcements">
+        <a href="#">
+        <img src="/hello-world/discord/image/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg" alt="">
+        <h2 class="flex-item-title">Announcements</h2>
+      <div class="line"></div>
+      <p>We've got our ear to the ground. Here's what you need to know.</p>
+    </a>
+    </li>
+  </ul>
+    </section>
 
   <footer>
     <div class="footer-container">
-      <div class="box-con">
-      <div class="more-box">LEARN MORE</div>
+      <div class="footer-main-container">
+        <div class="learn-container"><a href="#">LEARN MORE</a></div>
+        <div class="img-container"></div>
       </div>
-      
-      <div class="footer-sub-container">
-        <a href="#"><img src="" alt=""></a>
-        <ul class="add-con">
-          <li class="sub-add-con"><a href="#">Download</a></li>
-          <li class="sub-add-con"><a href="#">Help & Support</a></li>
-          <li class="sub-add-con"><a href="#">Feedback</a></li>
-          <li class="sub-add-con"><a href="#">Status</a></li>
-          <li class="sub-add-con"><a href="#">Company</a></li>
-          <li class="sub-add-con"><a href="#">Jobs</a></li>
-          <li class="sub-add-con"><a href="#">Blog</a></li>
-          <li class="sub-add-con"><a href="#">Terms&#38;Privacy</a></li>
-        </ul>
-      </div>
-
+        <div class="link-container">
+          <ul class="footer-nav">
+            <li class="discord-text"><a href="#"><img src="/hello-world/discord/image/c9f23a6ae41ebc0d9c21b08c2158c112fd5847b2.png" alt=""></a></li>
+            <li class="discord-text"><a href="#">Download</a></li>
+            <li class="discord-text"><a href="#">Help & Support</a></li>
+            <li class="discord-text"><a href="#">Feedback</a></li>
+            <li class="discord-text"><a href="#">Status</a></li>
+            <li class="discord-text"><a href="#">Company</a></li>
+            <li class="discord-text"><a href="#">Jobs<span class="lines"> - </span> <span class="green-text"> We're hiring </span></a></li>
+            <li class="discord-text"><a href="#">Blog</a></li>
+            <li class="discord-text"><a href="#">Terms <span class="entity"> & </span> Privacy</a></li>
+          </ul>
+        </div>
     </div>
   </footer>
 </body>
 
 </html>
+

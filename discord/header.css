@@ -1,3 +1,4 @@
+
 a {
     text-decoration: none;
     color: blue;
@@ -5,6 +6,10 @@ a {
 li {
     list-style: none;
 }
+header {
+    padding: 10px;
+}
+
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,8 +34,15 @@ nav {
     padding: 0 20px;
 }
 
-#hamburger {
+.material-symbols-outlined {
+    /* display: none; */
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 ;
+
+}
+
+.material-symbols-outlined > a {
     display: none;
+    padding: 10px;
 }
 
 @media screen and (max-width:767px) {
@@ -43,7 +55,7 @@ nav {
     #login {
         display: block;
     }
-    #hamburger {
+    .material-symbols-outlined a {
         display: block;
     }
 }
