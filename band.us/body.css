@@ -1,3 +1,7 @@
+li {
+    list-style: none;
+}
+
 /* section-main-container */
 
 .section-main-container {
@@ -175,6 +179,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 46px;
+    margin-bottom: 19px;
 }
 
 .another-band-container p:first-child {
@@ -190,3 +196,129 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-banner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band-list-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 24px 0 25px 0;
+    gap: 16px;
+}
+
+.band-banner-container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.sub-title {
+    font-size: 13px;
+}
+
+.member {
+    font-size: 12px;
+}
+.banner-img {
+    width: 93px;
+    margin-right: 12px;
+    display: block;
+}
+
+.banner-link {
+    font-weight: 900;
+}
+
+.member {
+    display: inline;
+}
+
+.banner-link:hover {
+    text-decoration: underline;
+}
+
+/* band-download-container */
+.band-download-container {
+    margin-bottom: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.band-icon-img {
+    background-image: url(band-img/spr_intro_2x.png);
+    background-repeat: no-repeat;
+    background-size: 231px auto;
+    background-position: -161px 0;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.main-comment {
+    font-size: 22px;
+    margin-right: 50px;
+}
+.sub-comment {
+    font-size: 14px;
+}
+
+.link-google {
+    background-image: url(/band-img/spr_intro_2x.png);
+    background-repeat: no-repeat;
+    background-size: 231px auto;
+    background-position: 0 0;
+    width: 160px;
+    height: 47px;
+    overflow: hidden;
+    margin: 8px 0 0 6px;
+}
+
+.link-app {
+    background-image: url(/band-img/spr_intro_2x.png);
+    background-repeat: no-repeat;
+    background-size: 231px auto;
+    background-position: 0 -48px;
+    width: 160px;
+    height: 47px;
+    overflow: hidden;
+    margin: 8px 0 0 6px;
+}
+
+.band-comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
+    /* gap: 48px; */
+}
+.gg-con {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+/* 
+.logo-between {
+    display: flex;
+    justify-content: space-between;
+} */
