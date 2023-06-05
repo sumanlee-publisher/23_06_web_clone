@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="header.css">
+ <link rel="stylesheet" href="body.css">
+ <link rel="stylesheet" href="footer.css">
+ <link rel="stylesheet" href="reset copy.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+ <header id="socar-header">
+  <div class="header-container">
+   <ul class="header-nav">
+    <li class="header-list-container-img"><a href="#">socar</a></li>
+    <li class="header-list-container">
+     <a href="#" class="header-login"><button class="material-symbols-outlined">menu</button></a>
+      <ul class="header-list-nav">
+       <li class="sub-list-container"><a href="#">이용 안내</a></li>
+       <li class="sub-list-container"><a href="#">요금 안내</a></li>
+       <li class="sub-list-container"><a href="#">혜택 안내</a></li>
+       <li class="sub-list-container"><a href="#">쏘카존 개설 신청</a></li>
+       <li class="sub-list-container"><a href="#">쏘카의 서비스</a></li>
+       <li class="sub-list-container"><a href="#">쏘카 비즈니스</a></li>
+       <li class="sub-list-container"><a href="#">쏘카 플랜</a></li>
+       <li class="sub-list-container"><a href="#">회사소개</a></li>
+       <li class="sub-list-container"><a href="#">공고</a></li>
+      </ul>
+    </li>
+   </ul>
+  </div>
+ </header>
+
+ <section>
+  <div class="section-main-container">
+   <h1 class="main-title">차가 필요한 모든 순간, 쏘카</h1>
+  </div>
+
+  <div class="article-container">
+   <div class="article-service-container">
+    <h2>24시간 언제나</h2>
+    <P>한밤중이나 주말에도 스마트폰으로 <br>시간에 구애받지 않고 <br>쏘카와 함께 이동하세요.</P>
+    <span class="image-container"></span>
+   </div>
+   <div class="article-service-container">
+    <h2>원하는 곳에서</h2>
+    <P>내 주변 3분 거리 쏘카존에서<br>혹은 내가 있는 곳으로 쏘카를 불러<br>어디서나 편하게 출발하세요.</P>
+    <span class="image-container"></span>
+   </div>
+   <div class="article-service-container">
+    <h2>필요한 시간만큼</h2>
+    <P>간단한 장보기 부터 주말여행까지<br>10분 단위로 원하는 만큼만 이용하세요.</P>
+    <span class="image-container"></span>
+   </div>
+   <div class="article-service-container">
+    <h2>다양한 차종을</h2>
+    <P>연인과의 드라이브부터 가족 캠핑까지<br>상황에 맞게 50여 종의 차량을 <br>선택해서 이용하세요.</P>
+    <span class="image-container"></span>
+   </div>
+  </div>
+
+  <div class="socar-members-container">
+   <p> <span class="blue-text">8,804,184</span>명의 회원이 쏘카와 <br> 함께하고 있습니다.
+   지금 바로 <span class="blue-text">쏘카 드라이브</span>를 시작하세요.</p>
+   <!-- 파란색테두리 물어보기 -->
+  </div>
+ </section>
+
+ <footer>
+  <div class="footer-container">
+   <div class="cion-container">
+    <a href="#" class="icon"></a>
+    <a href="#" class="icon"></a>
+    <a href="#" class="icon"></a>
+    <a href="#" class="icon"></a>
+   </div>
+   <div class="manual-container">
+    <a href="#">회사소개</a>
+    <a href="#">인재채용</a>
+    <a href="#">나눔카</a>
+    <a href="#">이용약관</a>
+    <a href="#">개인정보처리방침</a>
+    <a href="#">위치정보 이용약관</a>
+    <a href="#">차량손해면책제도</a>
+    <a href="#">고객센터</a>
+    <a href="#">제휴 문의</a>
+   </div>
+   <div class="company-address">
+    <div class="address-container">
+     <p>주소. 제주특별자치도 제주시 연미길 42(오라삼동)</p>
+     <p>전화. 1661-3315</p>
+     <p>팩스. 02-6969-9333</p>
+    </div>
+    <div class="company-infomation">
+     <p>(주)쏘카 통신판매업<a href="#" class="check-con">사업자정보 확인</a></p>
+     <p>신고: 제 2019-제주오라-3호, 사업자등록번호: 616-81-90529, 대표자 박재욱</p>
+     <p>&#169; 2019 SOCAR All rights reserved.</p>
+    </div>
+   </div>
+  </div>
+ </footer>
+ 
+ <!-- <script>
+  const header = document.getElementById('socar-header');
+  header.style.position = 'fixed';
+  header.style.top = '0';
+  header.style.width = '100%'
+  header.style.transition = '0.5s'
+  header.style.backgroundColor = 'transparent';
+
+  let beforeScroll = 0;
+  window.addEventListener('scroll', () => {
+      if (beforeScroll < window.scrollY) {
+          header.style.transform = 'translateY(-100%)'
+      } else {
+          header.style.transform = 'none'
+      }
+      beforeScroll = window.scrollY;
+
+      if (window.scrollY < 100) {
+          header.style.backgroundColor = 'transparent';
+      }
+      else {
+          header.style.backgroundColor = '#FFFFFF80';
+      }
+  })
+</script> -->
+</body>
+
+</html>
